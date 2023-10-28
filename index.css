@@ -133,6 +133,7 @@ main {
   left: 50%;
   transform: translate(-50%, -100%);
   transition: 0.3s;
+  width: 210px;
 }
 @media (max-width: 800px) {
   main {
