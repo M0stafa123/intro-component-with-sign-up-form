@@ -32,9 +32,12 @@ form.onsubmit = function (e) {
   }
   if (Array.from(all).every((e) => !e.classList.contains("err"))) {
     let check = document.querySelector(".submitted");
-    check.style.transform = "translate(-50%, 100%)";
+    check.style.display = "block";
+    check.style.transform = `translate(-50%, ${window.scrollY + 50}px)`;
+    check.style.top = "0";
     setTimeout(function () {
-      check.style.transform = "translate(-50%, -100%)";
+      check.style.transform = `translate(-50%, 0px )`;
+      check.style.top = "-15%";
     }, 1500);
   }
 };
