@@ -3,12 +3,11 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
   margin: 0;
 }
 main {
   background-color: hsl(0, 100%, 74%);
-  height: 100vh;
+
   position: relative;
   padding: 60px;
   display: flex;
