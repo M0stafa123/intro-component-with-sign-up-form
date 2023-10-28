@@ -47,13 +47,16 @@ main {
     background-image: url("/images/icon-error.svg");
     top: 50%;
     transform: translateY(-50%) scale(0.8);
-    right: 22px;
+    right: 35px;
     width: 24px;
     height: 24px;
   }
   & input {
     color: hsl(0, 100%, 74%);
     border-color: hsl(0, 100%, 74%) !important;
+    &:focus {
+      outline: none !important;
+    }
   }
   & span {
     color: hsl(0, 100%, 74%);
