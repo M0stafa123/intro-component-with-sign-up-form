@@ -4,9 +4,11 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  height: 100vh;
 }
 main {
   background-color: hsl(0, 100%, 74%);
+  height: 100vh;
 
   position: relative;
   padding: 60px;
@@ -134,8 +136,12 @@ main {
   width: 210px;
 }
 @media (max-width: 800px) {
+  body {
+    height: auto;
+  }
   main {
     padding: 20px;
+    height: auto;
   }
   .container {
     flex-flow: column;
